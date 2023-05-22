@@ -1,2 +1,82 @@
 Hello sahil
 welcome to git by simplilearn free course
+
+Check the version of Git
+1. git --version
+
+Set up some global config variables ----> If you're working with other developers, you need to know who is checking the code in and out and making the changes
+2. git config --global user.name "programmer-sahil"
+3. git config --global user.email "sksahilnew2021@gmail.com"
+4. git config --list (uporer lekha gulo dekha jabe name & email..snapshot upload kora ache)
+
+
+Need Help?????
+5. git help config 
+6. git config --help (open browser & read this page)
+7. git help add
+
+
+Create a "test" repository in the local system
+8. mkdir test
+
+Move to the test repository
+9. cd test
+
+Create a new git instance for a project
+10. git init
+(Initialized empty Git repository in C:/Users/ASUS/test/test/.git/) -then you can see this type of file location where the empty folder then you can create a simple text file & commit it)
+
+
+11. Create a new file called info.txt in the test folder, write something & save it
+
+
+Check the status of the repository
+12. git status
+
+Add the file you created to make a commit
+13. git add info.txt (text file name)
+
+Commit those changes to the repository's history with a short message
+14. git commit -m "commiting a text file"
+
+
+15.Make some changes to the file & save
+
+
+View the difference in file now & how it was at your last commit
+16.git diff
+
+
+Add GitHub username to Git Configuration
+17. git config --global user.username programmer-sahil
+
+18. Create a remote repository
+                 & paste that link below
+                 
+                 
+  Connect the local repository to your remote repository
+19. git remote add origin https://github.com/programmer-sahil/test.git
+
+
+Push the file to the remote repository
+20. git push origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
